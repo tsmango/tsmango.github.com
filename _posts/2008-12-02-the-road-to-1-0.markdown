@@ -1,0 +1,17 @@
+---
+layout: post
+title: "The Road to 1.0"
+alias: /post/63460802/the-road-to-1-0/index.html
+---
+
+Almost four years in the making, I'm very pleased to announce version 1.0 of my Database Development Environment, [PGnJ](http://thomasmango.com/projects/pgnj). Although it started as a side project, since February's release of 0.8, I have kicked developed into high gear. My goal was to release version 1.0 by year's end. A goal that I am very happy to have met.
+
+When it came time to lock down what I felt would be worthy of the 1.0 badge, I found myself back at the roots of PGnJ's design. Rather than simply packing PGnJ with the same old features that other database clients all have, I tried my best to stay true to the fact that PGnJ is meant to be a development aid. For example, I was less concerned with the standard table modification wizards that you see everywhere, than I was with a flexible system that could be extended in future releases. This is where SQL Templates were born. PGnJ 1.0 comes with a few stock DDL SQL Templates for easily creating and altering tables and columns. These templates include :variables that can be easily navigated using SHIFT+TAB and even special :type variables that show a tooltip with commonly used data types for the current database. In a future (already in the works) release of PGnJ, you will even be able to edit these templates as well as create your own.
+
+<p class="image">
+  <img src="http://thomasmango.com/images/2008/12/sql-templates.png"/>
+</p>
+
+Although there is already a [long list of new features and refinements](http://thomasmango.com/files/PGnJ/changes.txt) in 1.0, for me it still comes down to PGnJ staying out of your way and at the same time making it as easy as possible for you to get your database work done.
+
+Thank you to everyone who has sent feedback and used PGnJ in the past. I hope that you continue to send any and all comments you may!

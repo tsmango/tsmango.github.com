@@ -1,0 +1,154 @@
+body {
+  padding: 0 15px;
+}
+
+.center {
+  text-align: center;
+}
+
+section {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+a {
+  color: #3A539C;
+  text-decoration: none;
+}
+a:hover {
+  color: #1C2D66;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #f0f0f0;
+}
+
+header {
+  border-bottom: 1px solid #f0f0f0;
+  margin: 25px auto 0 auto;
+  max-width: 650px;
+  padding: 10px 0;
+}
+header nav {
+  float: right;
+  line-height: 42px;
+}
+header nav span {
+  margin-left: 15px;
+}
+header nav span a {
+  color: #333;
+  margin-left: 5px;
+}
+header nav span a img {
+  height: 16px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+  width: 16px;
+}
+header h1 {
+  font-size: 42px;
+  font-weight: normal;
+  line-height: 42px;
+}
+header h1 a {
+  color: #333;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 650px;
+}
+section h3 {
+  margin: 15px 0;
+}
+section p {
+  margin: 15px 0;
+}
+section ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+section ul li {
+  margin: 15px 0;
+}
+section ol {
+  margin-left: 20px;
+}
+section ol li {
+  margin: 15px 0;
+}
+section .gallery {
+  text-align: center;
+}
+section .gallery img {
+  border: 1px solid #f0f0f0;
+  height: 75px;
+  margin: 5px;
+  width: 75px;
+}
+section .image {
+  text-align: center;
+}
+section .image img {
+  border: 1px solid #f0f0f0;
+}
+
+article header {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+article header h1 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+  margin: 15px 0;
+}
+article header time {
+  float: right;
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: 5px;
+}
+article .old-article {
+  background-color: #f0d5c8;
+  font-size: 14px;
+  margin: 15px 0;
+  text-align: center;
+}
+article blockquote {
+  border-left: 1px solid #E0E0E0;
+  color: #444;
+  font-size: 15px;
+  margin: 5px 25px;
+  padding-left: 10px;
+}
+article .gist-meta {
+  font-size: 12px !important;
+  padding: 0 8px !important;
+}
+article .code-snippet {
+  background-color: #f8f8ff;
+  border: 1px solid #dedede;
+  overflow: auto;
+  padding: 0 15px;
+}
+
+footer {
+  border-top: 1px solid #f0f0f0;
+  margin: 15px auto 50px auto;
+  max-width: 650px;
+  padding: 10px 0;
+}
+footer iframe {
+  margin-right: 5px;
+}
+footer #copyright {
+  float: right;
+  font-size: 10px;
+  line-height: 20px;
+}
