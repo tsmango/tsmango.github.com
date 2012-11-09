@@ -140,7 +140,7 @@ article .code-snippet {
 
 footer {
   border-top: 1px solid #f0f0f0;
-  margin: 15px auto 50px auto;
+  margin: 15px auto 5px auto;
   max-width: 650px;
   padding: 10px 0;
 }
@@ -150,4 +150,21 @@ footer iframe {
 footer #copyright {
   font-size: 10px;
   line-height: 20px;
+}
+
+@media (max-width: 480px) {
+
+  header {
+    margin-top: 5px;
+  }
+  header h1 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  header nav {
+    line-height: 22px;
+  }
+  header nav span {
+    margin-left: 5px;
+  }
 }
