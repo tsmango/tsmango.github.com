@@ -3,10 +3,7 @@ layout: project
 permalink: solidmfg/index.html
 name: Solid MFG
 status: Active
-start: June 2011
-end: Present
-role: Co-Founder, Software Engineer
-link: https://getsolidmfg.com
+link: http://getsolidmfg.com
 link_text: getsolidmfg.com
 ---
 

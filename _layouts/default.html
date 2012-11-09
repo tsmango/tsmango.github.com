@@ -27,7 +27,6 @@
       <nav>
         <span>
           <a href="/about">About</a>
-          <a href="/articles">Articles</a>
 
           <script type="text/javascript">
           //<![CDATA[
@@ -73,14 +72,6 @@
         <span id="copyright">
           &copy; 2012 Thomas Mango
         </span>
-
-        {% if page.tweet %}
-          <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-          <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="tsmango" data-related="tsmango" data-text="{{ page.title | escape }}">Tweet</a>
-        {% endif %}
-
-        <a href="https://twitter.com/tsmango" class="twitter-follow-button" data-show-count="false">Follow @tsmango</a>
-        <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
       </footer>
     {% endif %}
 

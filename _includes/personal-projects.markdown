@@ -6,24 +6,13 @@
   A Jekyll plugin for generating redirect pages for posts.
 * [jekyll_flickr_set_tag](https://github.com/tsmango/jekyll_flickr_set_tag) -
   A Jekyll plugin for generating image galleries from a Flickr set.
+* [cacheable_hash](http://github.com/tsmango/cacheable_hash) -
+  A wrapper for Hashes to prevent frozen values when storing in memcached as well
+  as automatically keeping the cached copy up to date.
 * [do\*connect](/projects/doconnect) -
   This Ruby on Rails project was developed in 48 hours during Rails Rumble 2010
   and provides a simple way to build and grow a third party developer community
   around a service. Source available at [github.com/tsmango/doconnect](http://github.com/tsmango/doconnect).
-* [cacheable_hash](http://github.com/tsmango/cacheable_hash) -
-  A wrapper for Hashes to prevent frozen values when storing in memcached as well
-  as automatically keeping the cached copy up to date.
-* [Solid MFG](/projects/solidmfg) -
-  This Ruby on Rails project was developed for [Solid MFG](http://getsolidmfg.com/).
-  It offers a unique quote builder that allows you to quickly build a quote, get an estimate
-  and download templates.
-* [FreeMusicFirst.org](/projects/freemusicfirst) -
-  This Ruby on Rails project was developed for [FreeMusicFirst.org](http://freemusicfirst.org/).
-  It was built as a way to distribute music freely using services like Twitter and Facebook.
-* [Marketplace](/projects/marketplace) -
-  This Ruby on Rails project was developed for the [Vinyl Collective](http://vinylcollective.com/)
-  community. It was built to give community members an easy way to list and sell
-  their records.
 * [PGnJ](/projects/pgnj) -
   This Java application is a database development environment. Unlike most clients
   that came before it, PGnJ has a unique, single window interface.
