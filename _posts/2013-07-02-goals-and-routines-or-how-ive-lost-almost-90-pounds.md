@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Goals &amp; Routines or: How I've Lost Almost 90 Pounds"
+title: "Goals &amp; Routines or: How I've Lost Almost <del>90</del> 100 Pounds"
 ---
 
 I can no longer count the number of times that I've started writing, deleted, and restarted this post. Although I am proud of myself for what I've accomplished over the past year or so, I'm embarrassed for even having a chance to accomplish it. But putting those feelings aside, maybe reading this will help someone else set a goal, and change their routine for the better.
@@ -48,3 +48,10 @@ After about six weeks or so of keeping track of what I eat and exercising almost
 I'm generally a really private person. I'm embarrassed I used to be so overweight and unhealthy, but I'm really happy with how far I've come in just over a year and I guess I don't really mind boasting a bit now that I'm here. And so if you want to lose weight, start exercising, or just be healthier, you should know know that, even in your late 20's, it's actually possible. If I can lose nearly 90 pounds, there's no telling what you can do if you try. It just takes making attainable goals, getting into a good routine, and constantly updating your goals as you hit them.
 
 I'd love to hear from you, so please feel free to send an email to tsmango over at gmail. Thanks for reading!
+
+Update: Aug 28, 2013
+--------------------
+
+I've continued my progress running and eating healthy and have now dropped almost 100 pounds (98) in total. But much more important than that number (in fact I'm actively trying to maintain my weight rather than continue to lose now), however, is my usual running routine has me running 5km, 6 days a week. Also, last week, I ran my first 10km.
+
+When I started, I never expected that I'd be able to do this and keep it going, but once you've seen, and **felt** progress, it really helps to continue your motivation. If you're thinking about making a change to be healthier, I really hope this post proves to you that it's absolutely possible. Even if your work has you sitting behind a desk all day.
