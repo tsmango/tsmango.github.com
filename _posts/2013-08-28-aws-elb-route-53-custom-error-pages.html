@@ -1,0 +1,65 @@
+---
+layout: post
+title: "Custom Error Pages, AWS's ELB, and Route 53 Failover"
+---
+
+<p>There has been a thread on the AWS support forums since July 25th, 2011 calling for AWS to <a href="https://forums.aws.amazon.com/thread.jspa?messageID=476477">add customizable error pages</a> to their <a href="http://aws.amazon.com/elasticloadbalancing/">ELB (Elastic Load Balancer)</a> product.</p>
+
+<p>AWS recently added health check and failover features to their <a href="http://aws.amazon.com/route53/">Route 53 (DNS)</a> product, and now some people are wondering whether or not this removes the need for custom error pages on Elastic Load Balancers:</p>
+
+<blockquote>
+  <strong>Nalog wrote:</strong> What about using <a href="http://aws.amazon.com/route53/faqs/#dns_failover_does_dns_failover_su">DNS Failover on ELB</a>?
+</blockquote>
+
+<p>Short answer, no, it doesn't.</p>
+
+<h2>Long Answer:</h2>
+
+<p>Using <a href="http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover.html">Route 53's DNS failover</a>, while similar, is unfortunately not the same thing. With a DNS failover setup, clients would wait the TTL (probably 60 seconds in this case) before re-requesting DNS entries for the request (thus getting a failover IP address). However, Route 53 won't failover until some amount of time passes and it believes that the ELB should be failed over from. So you may be in the 2 minute range at this point.</p>
+
+<p>During this 2 minute or so range, blank pages are being served to clients from the ELB. Additionally, clients (browsers) aren't always great about handling transitions between the blank pages from ELB requests and some failover, say a static site being hosted out of S3. Even with no-cache headers, and updated DNS entries because of the failover, browsers will often cache the results and not show updated pages (due to a failover or recovery) by simply clicking the refresh button. Restarting the browser generally forces a refresh of the page, but end users aren't going to expect to have to do that, nor should they have to.</p>
+
+<p>If ELB was able to serve a custom error page, rather than a blank response, when no instance responded to a request, this would solve all of the above issues. Clients wouldn't need to wait for new DNS records, nor would they be affected by cached pages. They would simply receive the error page as the response of their intended request. If they refresh and the ELB can return a real response, they'd display the real response.</p>
+
+<p>If AWS ever adds the ability to have an ELB respond with a custom error page when no instance responds to a request, it will most likely work like a standard <a href="http://www.haproxy.org">HAProxy</a> setup. With HAProxy, you can configure a "backup" instance. For example, you can configure a backend like:</p>
+
+<script src='https://gist.github.com/tsmango/6365452.js?file=haproxy'> </script>
+<noscript>
+<div class='code-snippet'>
+<pre><code>backend my-web-app
+  server service-unavailable 127.0.0.1:8000 weight 1 backup
+  server i-eb1c5083 10.154.148.222:80 weight 1 check
+  server i-f41c531e 10.141.158.72:80 weight 1 check
+
+listen my-web-http
+  bind :80
+  default_backend my-web-app</code></pre>
+</div>
+</noscript>
+
+<p>In this scenario, you configure HAProxy with a backend that has 2 real instances and then you also run Apache on port 8000 on the same instance running HAProxy. If neither real instance can respond to a request, HAProxy automatically routes the request to 127.0.0.1:8000 and you would configure Apache to rewrite every request and respond with your error page.</p>
+
+<script src='https://gist.github.com/tsmango/6365452.js?file=apache'> </script>
+<noscript>
+<div class='code-snippet'>
+<pre><code><VirtualHost *:8000>
+  ServerAlias *
+
+  DocumentRoot /var/www/
+  <Directory /var/www/>
+    Options FollowSymLinks
+    AllowOverride None
+    Order allow,deny
+    Allow from all
+  </Directory>
+
+  RewriteEngine On
+
+  RewriteCond %{DOCUMENT_ROOT}/503.html -f
+  RewriteCond %{SCRIPT_FILENAME} !503.html
+  RewriteRule ^.*$ /503.html [L]
+</VirtualHost></code></pre>
+</div>
+</noscript>
+
+<p>Route 53's DNS failover is useful for some things, such as your ELB completely going away, but it isn't a substitute for ELBs being able to actually serve error pages, rather than blank responses, when your instances don't respond.</p>
