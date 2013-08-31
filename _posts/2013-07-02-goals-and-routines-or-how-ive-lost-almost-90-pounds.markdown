@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Goals &amp; Routines or: How I've Lost Almost <del>90</del> 100 Pounds"
+title: "Goals &amp; Routines or: How I've Lost <del>Almost 90</del> 100 Pounds"
 ---
 
 I can no longer count the number of times that I've started writing, deleted, and restarted this post. Although I am proud of myself for what I've accomplished over the past year or so, I'm embarrassed for even having a chance to accomplish it. But putting those feelings aside, maybe reading this will help someone else set a goal, and change their routine for the better.
@@ -51,9 +51,11 @@ I'd love to hear from you, so please feel free to send an email to tsmango over 
 
 Thanks for reading!
 
-Update: Aug 28, 2013
+Update: Aug 31, 2013
 --------------------
 
-I've continued my progress running and eating healthy and have now dropped almost 100 pounds (98) in total. But much more important than that number (in fact I'm now actively trying to maintain, rather than continue to lose weight), however, is my usual routine has me running 5km, 6 days a week. Also, last week, I ran my first 10km (that secret fantasy goal I had just a few months ago).
+I've continued my progress running and eating healthy and have now dropped 100 pounds in total since March of 2012. But much more important than that number (in fact I'm now working to maintain my weight, rather than lose more), is that my usual routine has me running 5km, 6 days a week. Also, last week, I ran my first 10km (that secret fantasy goal I had just a few months ago).
 
-When I started, I never expected that I'd be able to do this and keep it going, but once you've seen, and **felt** progress, it really helps to continue your motivation. If you're thinking about making a change to be healthier, I really hope this post proves to you that it's absolutely possible. Even if your work has you sitting behind a desk all day.
+After all of these years, I finally feel like an active, healthy person.
+
+When I started this a year and a half ago, I never expected to be able to come so far and change my life so thoroughly, but once you get into a good routine, have seen, and **felt**, real progress, it helps to further your motivation. If you're thinking about making a change to be healthier, I really hope this post proves to you that it's absolutely possible. Even if your work has you sitting behind a desk all day.
