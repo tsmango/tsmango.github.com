@@ -31,7 +31,7 @@ Both conferences had scheduled networking events. Coffee in the morning. Drinkin
 
 And then I read Justine's post.
 
-While I don't necessarily think having a Code of Conduct would have prevented the events she described from unfolding as they did, I think the point about drinking at conferences is important here. Maybe it's too out of hand many some cases. Maybe the focus for these conferences have shifted from learning to socializing. Maybe this, in turn, means having a Code of Conduct is particularly important. Maybe they were never about learning and I just don't understand that. But also, maybe we need alternative conferences, that focus more on learning, for people that are interested in that sort of thing.
+While I don't necessarily think having a Code of Conduct would have prevented the events she described from unfolding as they did, I think the point about drinking at conferences is important here. Maybe it's too out of hand in many cases. Maybe the focus for these conferences have shifted from learning to socializing. Maybe this, in turn, means having a Code of Conduct is particularly important. Maybe they were never about learning and I just don't understand that. But also, maybe we need alternative conferences, that focus more on learning, for people that are interested in that sort of thing.
 
 To be clear, I have no idea what happened after 5pm at the two conferences I attended, because I wasn't there to find out. I suspect everything went fine and people had a good time.
 
