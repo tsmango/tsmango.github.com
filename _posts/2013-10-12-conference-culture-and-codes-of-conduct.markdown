@@ -27,7 +27,7 @@ I'm still interested in going to conferences and learning, and I suspect there e
 Codes of Conduct
 ----------------
 
-Both conferences had scheduled networking events. Coffee in the morning. Drinking at night. Crushing anxiety and general disinterest in socializing, I pointedly avoided these things. Put me in a room with a few people I know, and I'm okay. Put me in a room with a hundred complete strangers and okay just please don't put me in a room with a hundred complete strangers. But one thing I **was** exposed to at each conference, was a Code of Conduct. And each time, sitting in the audience, I found it completely bizarre. I found myself thinking that I couldn't believe this was necessary. Okay, maybe some of the people attending where five or ten years younger than I, but still, they're adults, aren't they? Why do they need to be reminded to "Be Considerate", "Be Respectful", and "Be Professional"?
+Both conferences had scheduled networking events. Coffee in the morning. Drinking at night. Crushing anxiety and general disinterest in socializing, I pointedly avoided these things. Put me in a room with a few people I know, and I'm okay. Put me in a room with a hundred complete strangers and okay just please don't put me in a room with a hundred complete strangers. But one thing I **was** exposed to at each conference, was a Code of Conduct. And each time, sitting in the audience, I found it completely bizarre. I found myself thinking that I couldn't believe this was necessary. Okay, maybe some of the people attending were five or ten years younger than I, but still, they're adults, aren't they? Why do they need to be reminded to "Be Considerate", "Be Respectful", and "Be Professional"?
 
 And then I read Justine's post.
 
