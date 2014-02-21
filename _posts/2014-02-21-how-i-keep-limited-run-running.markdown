@@ -3,9 +3,11 @@ layout: post
 title: "How I Keep Limited Run Running"
 ---
 
-*A little less than three years ago, I wrote a post that talked about how I kept our web services running, while being the only developer and operations person in our company. I think that this subject is so important, it deserves an update.*
+*A little less than three years ago, I wrote a post that talked about how I kept our web services running, while being the only developer and operations person in our company. Since then, the amount of traffic we handle has increased more than 3000%, our revenue has grown over 5000%, and this topic is more important than ever.*
 
-### Background
+*And yes, I'm still our only developer and operations person.*
+
+## Background
 
 I'm Tom, and I'm half of [Limited Run](http://limitedrun.com), [Card Included](http://cardincluded.com), and a few other things. I also organize most of the [Rails Rumble](http://railsrumble.com), but that's a seasonal thing.
 
@@ -13,7 +15,7 @@ For our consumer facing services, I'm the only developer and the only operations
 
 In companies with a larger staff than ours and similar availability requirements, on-call schedules help to ease the situation. Further, operations people spread out across the world help to keep everyone sane. We're not in that situation, so we've built an enormous number of automated systems, checks, and fail-safes over the years to ensure we can keep everything operating as smoothly as possible. However, simply having more employees available to resolve issues, is no excuse for not doing everything possible to fortify your infrastructure.
 
-### Overview
+## Overview
 
 There are three important aspects I rely on to keep things running smoothly:
 
@@ -21,7 +23,7 @@ There are three important aspects I rely on to keep things running smoothly:
 2. Automation
 3. On-The-Go Preparedness
 
-### Monitoring
+## Monitoring
 
 Without thorough monitoring, you absolutely cannot expect to be able to keep your service operating. I use and seriously endorse the following services to help with monitoring:
 
@@ -38,7 +40,7 @@ In addition to paid services, we've found it necessary to build a number of cust
 * EC2 Instance Watcher - A few years ago, we had an issue that resulted in runaway EC2 instance replacements. This was a costly mistake, as you pay for a minimum of one hour for each instance, even if that instance was only booted for a couple of minutes. This script will deliver notifications, first by email, then to PagerDuty if things get really out of hand, whenever our instance count (running + terminated) goes above the range we normally expect it to be in. Nowadays, you can configure EC2 auto scaling groups to automatically email you on every event (which I highly suggest), so this script isn't quite as useful as it once was.
 * Backlog Job Watcher - A while back, we had an issue that prevented our background jobs from being properly run. Everything from email notifications to processing lossless audio albums halted for a few hours. This script checks our backlog of jobs every so often and ensures it doesn't get too long. If it does, it contacts me.
 
-### Architecture & Automation
+## Architecture & Automation
 
 Invest in your architecture. Not necessarily with money directly, but with time. The more of your architecture you can automate and depend on, the better you'll sleep at night and the more quickly you'll be able to recover if something goes wrong. It seems like an obvious point, but I think a lot of people don't take this seriously enough at first. If monitoring will get you half the way, self configuring server instances and auto scaling will get you the rest of the way. Being a solo developer is not an excuse to not invest time in automation. In fact, being a solo developer is even more of a reason to invest the time.
 
@@ -52,7 +54,7 @@ To take the idea of auto scaling further, you have to design your systems to be 
 
 One final piece of the infrastructure puzzle, is redundancy. Being an AWS user, we leverage RDS's Multi-AZ support, which places a slave of our main database in another availability zone. Additionally, we run EC2 instances across multiple availability zones, and have Route 53 configured with failovers to backup load balancers in various availability zones. Whatever your specific setup is, the main point is that taking out a single server, or every server in a single availability zone, shouldn't cause you any problems. Okay, there may be a brief minute or so issue when things failover, but you aren't left scrambling to fix things. As much as possible, things should be fixing themselves.
 
-### On-The-Go Preparedness
+## On-The-Go Preparedness
 
 Over the years, as our monitoring, automation, and infrastructure has improved, I've become much less dependent on having to be prepared to deal with an issue while away from home (where my main office is). Additionally, while I may run web services, and work on software all day, I'm actually not that into technology when I leave the house. For me, part of that work-life balance I mentioned earlier, means being able to step away from technology, or at least, not have it in my face all the time. Having said that, I don't go anywhere without, at the very least, my phone. And if I'm going out for the entire day, I will generally throw a bag in my car that also has an iPad and MacBook Air in it, just in case. Also worth noting, my iPhone is on AT&T and my iPad is on Verizon. Cell coverage isn't amazing where I live, so being able to tether on either network, is a nice backup.
 
@@ -65,6 +67,6 @@ In addition to these, I also have apps for the [AWS Console](http://aws.amazon.c
 
 Again, this is all just a final safety net in case automated systems don't resolve something that arises while I'm out. The goal is to not need to rely on these things, but the fact is that if something does come up, it can be resolved from my phone. Having an iPad or a laptop with me can sometimes speed things up in certain circumstances, but generally isn't necessary.
 
-### Conclusion
+## Conclusion
 
 Werner Vogel, Amazon's CTO, famously said: ["everything fails, all the time"](https://www.google.com/#q=%22everything+fails%2C+all+the+time%22). You need to design for failure and you need to be ready to react when something goes wrong. For me, as a single developer, that means thorough monitoring, being able to rely on an automated architecture, and always being connected.
