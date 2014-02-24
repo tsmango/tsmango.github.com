@@ -8,4 +8,4 @@ Although the majority of my work isn't open source, I do have a few projects on
 [GitHub](http://github.com/tsmango).
 
 Aside from writing software, I enjoy spending time with my bulldog,
-[Napoleon](/napoleon), running, and listening to hardcore and punk music.
+[Napoleon](/napoleon), running, cooking, and space.
