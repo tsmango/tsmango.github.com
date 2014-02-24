@@ -1,6 +1,6 @@
 ### My Current Work
 
-Co-Founder, Software Engineer @ Cloud Warmer, Inc. - June 2009 &#8594; Present
+[Co-Founder, Software Engineer @ Cloud Warmer, Inc.](http://cloudwarmerinc.com) - June 2009 &#8594; Present
 
 * [Limited Run](/projects/limitedrun) -
 	A hosted store platform for artists, labels, designers or anyone selling
@@ -13,16 +13,6 @@ Co-Founder, Software Engineer @ Cloud Warmer, Inc. - June 2009 &#8594; Present
 	A self-serve download card service that allows bands and labels to easily design
 	and print download cards to use at shows, performances, in vinyl, or just to
 	carry around with them.
-* [The Old LP](/projects/theoldlp) -
-	A community marketplace for collectors. It offers a number of innovative
-	ways to buy, sell and trade your vinyl, clothing and anything else you want.
-	It has an auctioning system, a trading system and various other networking
-	and communication related features.
-* [Multipass](/projects/multipass) -
-	A single sign on service for all Cloud Warmer hosted sites.
-	This service uses oauth under the hood, along with a custom concept of
-	&quot;trusted&quot; sites, to seamlessly sign users into various sites
-	without having to worry about standard oauth style accept/deny dialogs.
 
 [Organizer @ Rails Rumble](http://railsrumble.com) - July 2012 &#8594; Present
 
