@@ -15,13 +15,7 @@ For our consumer facing services, I'm the only developer and the only operations
 
 In companies with a larger staff than ours and similar availability requirements, on-call schedules help to ease the situation. Further, operations people spread out across the world help to keep everyone sane. We're not in that situation, so we've built an enormous number of automated systems, checks, and fail-safes over the years to ensure we can keep everything operating as smoothly as possible. However, simply having more employees available to resolve issues, is no excuse for not doing everything possible to fortify your infrastructure.
 
-## Overview
-
-There are three important aspects I rely on to keep things running smoothly:
-
-1. Monitoring
-2. Automation
-3. On-The-Go Preparedness
+There are three important areas I focus on to keep things running smoothly: monitoring, automation, and on-the-go preparedness. Here's how I approach each of them.
 
 ## Monitoring
 
@@ -41,6 +35,8 @@ In addition to paid services, we've found it necessary to build a number of cust
 * Clickylert - This is a little script that polls Clicky for the number of people currently on our sites and detects significant, upward changes. When a large spike is detected, Clickylert emails me how many people are currently on the site along with how the traffic changed over the past hour. Additionally, Clickylert can be configured to send an email to PagerDuty, which would call my phone. If Pingdom is how I get notified when something very bad happens, Clickylert is what notifies me when something out of the ordinary is happening, which may or may not lead to something bad. Over the years, our scale has grown so much and our infrastructure has improved even more so, that Clickylert is no longer configured to call me. We have massive stores running on Limited Run sending waves and waves of traffic at all hours of the day and night. It simply became easier to handle huge influxes of traffic out of nowhere, than to worry about spikes in traffic.
 * EC2 Instance Watcher - A few years ago, we had an issue that resulted in runaway EC2 instance replacements. This was a costly mistake, as you pay for a minimum of one hour for each instance, even if that instance was only booted for a couple of minutes. This script will deliver notifications, first by email, then to PagerDuty if things get really out of hand, whenever our instance count (running + terminated) goes above the range we normally expect it to be in. Nowadays, you can configure EC2 auto scaling groups to automatically email you on every event (which I highly suggest), so this script isn't quite as useful as it once was.
 * Backlog Job Watcher - A while back, we had an issue that prevented our background jobs from being properly run. Everything from email notifications to processing lossless audio albums halted for a few hours. This script checks our backlog of jobs every so often and ensures it doesn't get too long. If it does, it contacts me.
+
+One other important thing we do is use [god](http://godrb.com/) (there are more modern alternatives, but this is simple and has worked well for us for many years) to ensure various services continue running on each of our servers. We use god to ensure HAProxy, Nginx, Apache, and our background workers continue running. We also have a cronjob that starts god every so often in case it dies, which does happen every so often. Just like subscribing to push notifications about PagerDuty's and Amazon's status, layering your monitoring is important. Things may fail, but multiple failures at once are much less likely.
 
 ## Architecture & Automation
 
