@@ -9,6 +9,10 @@
 	entire website, in minutes. Limited Run was launched in 2009 under the name
 	Limited Pressing. It was relaunched at the start of 2012 and renamed to
 	Limited Run.
+* [Swell](http://heyswell.com) -
+	A traffic analysis and alerting service that tells you instantly when something
+	exciting happens on your site. You can receive alerts for traffic spikes by
+	email, text, or phone and know exactly where that traffic originated from.
 * [Card Included](/projects/cardincluded) -
 	A self-serve download card service that allows bands and labels to easily design
 	and print download cards to use at shows, performances, in vinyl, or just to
