@@ -1,5 +1,5 @@
 Hi, I'm Tom, a software engineer and [entrepreneur](http://cloudwarmerinc.com)
-living on Long Island. I own and operate a number of services, including a
+living in Brooklyn. I own and operate a number of services, including a
 hosted store platform named [Limited Run](http://limitedrun.com), a traffic
 analysis and alerting service named [Swell](http://heyswell.com), and a download
 card service named [Card Included](http://cardincluded.com). I also organize the
