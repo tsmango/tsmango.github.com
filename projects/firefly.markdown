@@ -1,7 +1,7 @@
 ---
 layout: project
-permalink: firefly/index.html
-name: Firefly
+permalink: /projects/firefly/index.html
+title: Firefly
 status: Discontinued
 start: Jan 2010
 end: Dec 2010

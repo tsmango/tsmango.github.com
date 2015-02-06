@@ -1,7 +1,7 @@
 ---
 layout: project
-permalink: lirr/index.html
-name: Mobile LIRR
+permalink: /projects/lirr/index.html
+title: Mobile LIRR
 status: Not Active
 ---
 

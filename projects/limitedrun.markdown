@@ -1,8 +1,8 @@
 ---
 layout: project
-permalink: limitedrun/index.html
+permalink: /projects/limitedrun/index.html
 alias: /projects/limitedpressing
-name: Limited Run
+title: Limited Run
 status: Active
 start: Sept 2009
 end: Present

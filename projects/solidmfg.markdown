@@ -1,7 +1,7 @@
 ---
 layout: project
-permalink: solidmfg/index.html
-name: Solid MFG
+permalink: /projects/solidmfg/index.html
+title: Solid MFG
 status: Active
 link: http://getsolidmfg.com
 link_text: getsolidmfg.com

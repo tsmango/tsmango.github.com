@@ -1,10 +1,10 @@
 ---
 layout: project
-permalink: theoldlp/index.html
-name: The Old LP
-status: Active
+permalink: /projects/theoldlp/index.html
+title: The Old LP
+status: Not Active
 start: May 2011
-end: Present
+end: Dec 2014
 role: Co-Founder, Software Engineer
 link: http://www.theoldlp.com
 link_text: theoldlp.com

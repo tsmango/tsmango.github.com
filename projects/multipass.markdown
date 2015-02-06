@@ -1,7 +1,7 @@
 ---
 layout: project
-permalink: multipass/index.html
-name: Multipass
+permalink: /projects/multipass/index.html
+title: Multipass
 status: Inactive
 start: June 2011
 end: Present

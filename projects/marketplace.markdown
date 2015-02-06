@@ -1,7 +1,7 @@
 ---
 layout: project
-permalink: marketplace/index.html
-name: Vinyl Collective Marketplace
+permalink: /projects/marketplace/index.html
+title: Vinyl Collective Marketplace
 status: Not Active
 ---
 

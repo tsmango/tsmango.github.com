@@ -1,7 +1,7 @@
 ---
 layout: project
-permalink: pgnj/index.html
-name: PGnJ
+permalink: /projects/pgnj/index.html
+title: PGnJ
 status: Stable; Not Actively Developed
 ---
 

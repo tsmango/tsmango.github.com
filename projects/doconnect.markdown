@@ -1,7 +1,7 @@
 ---
 layout: project
-permalink: doconnect/index.html
-name: do*connect
+permalink: /projects/doconnect/index.html
+title: do*connect
 status: Not Active
 note: Built in 48 hours for Rails Rumble 2010
 link: http://github.com/tsmango/doconnect

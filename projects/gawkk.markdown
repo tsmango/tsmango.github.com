@@ -1,7 +1,7 @@
 ---
 layout: project
-permalink: gawkk/index.html
-name: Gawkk
+permalink: /projects/gawkk/index.html
+title: Gawkk
 status: Sold
 start: Sept 2007
 end: Dec 2009

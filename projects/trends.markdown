@@ -1,7 +1,7 @@
 ---
 layout: project
-permalink: trends/index.html
-name: Mobile Trends
+permalink: /projects/trends/index.html
+title: Mobile Trends
 status: Not Active
 ---
 

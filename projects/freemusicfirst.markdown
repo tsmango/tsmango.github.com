@@ -1,7 +1,7 @@
 ---
 layout: project
-permalink: freemusicfirst/index.html
-name: FreeMusicFirst.org
+permalink: /projects/freemusicfirst/index.html
+title: FreeMusicFirst.org
 status: Not Active
 ---
 
