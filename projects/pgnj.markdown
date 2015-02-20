@@ -2,7 +2,7 @@
 layout: project
 permalink: /projects/pgnj/index.html
 title: PGnJ
-status: Stable; Not Actively Developed
+status: Stable; Not Actively Developed; Old & Crusty
 ---
 
 PGnJ is a database development environment for Mac OS X. Unlike clients that
@@ -17,8 +17,13 @@ improvements were released in 2009.
 
 * I highly recommend [Sequel Pro](http://www.sequelpro.com/) for MySQL users,
   which has embraced the single window design seen in PGnJ since early 2004.
-* Because of Java's continually diminishing support, future versions of OS X
-  may or may not be supported.
+  It's full featured, looks great, and is extremely stable.
+* For PostgreSQL, I absolutely recommend [Postico](https://eggerapps.at/postico/).
+  It's a modern Mac app approach to database clients, built specifically for
+  PostgreSQL, with continuing active development.
+* While PGnJ does run on OS X Yosemite, it still looks and feels like it did
+  back in 2008. And because of Java's continually diminishing support on OS X,
+  PGnJ may simply stop working one day.
 
 ### Features
 
