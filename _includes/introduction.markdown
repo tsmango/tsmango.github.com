@@ -8,5 +8,5 @@ card service named [Card Included](http://cardincluded.com). I also organize the
 Although the majority of my work isn't open source, I do have a few projects on
 [GitHub](http://github.com/tsmango).
 
-Aside from writing software, I enjoy spending time with my bulldog,
-[Napoleon](/napoleon), running, cooking, and space.
+Aside from writing software, I enjoy spending time with [Napoleon](/napoleon)
+and [cooking vegan](http://instagram.com/onehungryvegan).
