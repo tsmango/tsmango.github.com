@@ -7,7 +7,7 @@ Napoleon is my english bulldog. He was born in May of 2008 and spends most
 days sleeping in his bed, on the floor in the sun, under my desk, on the
 couch, in the kitchen, in the bathroom and sometimes even in closets.
 
-When he isn't sleeping, he enjoys eating cookies and catching spiders.
+When he isn't sleeping, he enjoys yawning and eating cookies.
 
 <p class="image">
   <img src="/images/napoleon/0.jpg"/>
