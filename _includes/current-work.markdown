@@ -18,8 +18,8 @@
 	and print download cards to use at shows, performances, in vinyl, or just to
 	carry around with them.
 
-[Organizer @ Rails Rumble](http://railsrumble.com) - July 2012 &#8594; Present
+[Co-Founder @ RumbleX](http://railsrumble.com) - January 2016 &#8594; Present
 
-* I rebooted and retooled the Rails Rumble, a 48 hour, distributed hackathon
-	for Ruby developers. The 2012 Rails Rumble was the biggest yet, with 500
-	registered teams and 300 launched applications.
+* After organizing the Rails Rumble for four years, I co-founded RumbleX, where
+	we continue to build and run the biggest online hackathons in the world, including
+	future iterations of the Rails Rumble, Node Knockout, and many more.

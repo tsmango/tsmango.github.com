@@ -1,5 +1,13 @@
 ### My Past Work
 
+[Organizer @ Rails Rumble](http://railsrumble.com) - July 2012 &#8594; December 2015
+
+* I rebooted and retooled the Rails Rumble, a 48 hour, distributed hackathon
+	for Ruby developers. The 2012 Rails Rumble was the biggest yet, with 500
+	registered teams and 300 launched applications.
+* The Rails Rumble has been rolled up into our new company, **RumbleX**, and
+	will continue on in future iterations.
+
 [Project Manager, Software Engineer @ Firefly](/projects/firefly), Jan 2010 &#8594; Dec 2010
 
 * Firefly is a way to see where your friends are on Twitter. Find your friends
