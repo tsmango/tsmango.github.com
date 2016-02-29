@@ -6,7 +6,8 @@ card service named [Card Included](http://cardincluded.com).
 
 Additionally, after four years of organizing the [Rails Rumble](http://railsrumble.com),
 I co-founded [RumbleX](http://rumblex.com), where we continue to build and run the biggest
-online hackathons in the world.
+online hackathons in the world, including future iterations of the Rails Rumble, Node
+Knockout, and many more.
 
 Although the majority of my work isn't open source, I do have a few projects on
 [GitHub](http://github.com/tsmango).
