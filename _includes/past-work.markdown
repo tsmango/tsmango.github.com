@@ -3,42 +3,57 @@
 [Organizer @ Rails Rumble](http://railsrumble.com) - July 2012 &#8594; December 2015
 
 * I rebooted and retooled the Rails Rumble, a 48 hour, distributed hackathon
-	for Ruby developers. The 2012 Rails Rumble was the biggest yet, with 500
-	registered teams and 300 launched applications.
-* The Rails Rumble has been rolled up into our new company, **RumbleX**, and
-	will continue on in future iterations.
+	for Ruby developers, reaching thousands of developers every year.
+* The Rails Rumble has been rolled up into our new company, RumbleX, and
+	will continue on in future iterations as the Ruby Rampage.
+
+[Software Engineer @ American Physical Society](http://aps.org) - Jan 2013 &#8594; July 2013
+
+* After their migration from more than a hundred separate SVN repositories, into a single Git
+  repository, I built a custom deployment pipeline, which included an orchestrating &amp;
+  status web service, as well as an integrated CLI. With this system, developers could easily
+  deploy updates to grouped micro-services (for example, a front end web application, as well
+  as its related backend API service) to the specific sets of discovered servers, running those
+  services, by issuing a single command to the CLI.
+* Discovered, organized, and documented micro-services spread out across a number of legacy
+  servers, and developed a new Chef-based architecture so they could move away from their own
+  data centers and into AWS in multiple regions, with a repeatable environment.
+* Developed a new staff-facing content management application (front &amp; backend) for writing,
+  updating, and featuring content on individual <a href="http://journals.aps.org">APS Journal sites</a>.
+* Developed a new user-facing authentication, profile, and settings service (front &amp; backend)
+	for use on <a href="http://journals.aps.org">APS Journal sites</a>.
 
 [Project Manager, Software Engineer @ Firefly](/projects/firefly), Jan 2010 &#8594; Dec 2010
 
-* Firefly is a way to see where your friends are on Twitter. Find your friends
-	in the real-world, share your location and photos, and get notified when
-	friends check-in nearby.
-* My responsibilities included: product development, configuration & deployment
-	to AWS, the API, the web application, the mobile web application and managing
-	development of the iPhone application.
+* Firefly was a way to see where your friends on Twitter were. You could find your
+  friends in the real-world, share your location and photos, and get notified when
+  friends checked-in nearby.
+* My responsibilities included: product development, configuration &amp; deployment
+  to AWS, the API, the web application, the mobile web application and managing
+  development of the iPhone application.
 
 [Software Engineer @ Gawkk](/projects/gawkk), Sept 2007 &#8594; Dec 2009 (Sold)
 
-* Gawkk automatically aggregates and categorizes video from thousands of
-	websites. Channels of videos can be subscribed to and videos liked by and
-	commented on by your friends will show up in your news feed. This site was
-	sold in early 2010.
-* I was contracted to build Gawkk and was responsible for all technical
-	decisions. I was the sole developer before it was sold.
+* Gawkk automatically aggregated and categorized video from thousands of
+  websites. Channels of videos could be subscribed to and videos liked by and
+  commented on by your friends would show up in your news feed. This site was
+  sold in early 2010.
+* I was contracted to build Gawkk and was the sole developer responsible for
+  all technical decisions.
 
 Software Engineer @ Lourdes Industries, June 2001 &#8594; Sept 2007
 
-* Designed and implemented a centralized authentication & role-based access
-	control system. This J2EE web application provides management for users and
-	permissions as well as an API for all other internal applications to use.
-* Started development of a thin client J2EE replacement for a legacy Enterprise
-	Resource Planning system. By the time I left, we had successfully moved
-	customer management, quoting, sales orders, engineering and accounts
-	receivable processes onto our J2EE system. When complete, this system will
-	also handle purchasing, production, inventory and accounts payable.
+* Designed and implemented a centralized authentication &amp; role-based access
+  control system. This J2EE web application provides management for users and
+  permissions as well as an API for all other internal applications to use.
+* Developed a thin client J2EE replacement for a legacy Enterprise
+  Resource Planning system. By the time I left, we had successfully moved
+  customer management, quoting, sales orders, engineering and accounts
+  receivable processes onto our J2EE system. When complete, this system will
+  also handle purchasing, production, inventory and accounts payable.
 * Developed a J2EE web application in order to manage the relationship between
-	parts and fixtures (shop tools) as well as to provide metrics on supply usage
-	to more efficiently stock the tool room.
+  parts and fixtures (shop tools) as well as to provide metrics on supply usage
+  to more efficiently stock the tool room.
 * Developed a J2EE web application that enables users to tag material
 	certification documents scanned into a networked scanner as well as search
 	previously scanned documents.
@@ -56,7 +71,7 @@ Freelance & Pro Bono Application Development & Design, 2000 &#8594; Present
 	Services. This Ruby on Rails application allows clients to upload documents
 	in bulk with a custom, drag and drop Java applet. This system is currently
 	live and supporting more than 4000 clients that upload over 20GB of data a
-	month to 10 locations and has processed over 100,000 documents.
+	month to 10 locations and has processed over 150,000 documents.
 * Developed a specialized web based scheduling application for use in a hospital
 	with multiple clinics, surgical rooms and resource requirements. This Ruby on
 	Rails application also utilized the dojo javascript framework to display

@@ -1,7 +1,5 @@
 ### A Brief History
 
-In 2011, I began working on my own services full time.
-
 In 2009, I launched the first of my own services.
 
 In 2007, I left my job writing JEE applications and began taking contract
