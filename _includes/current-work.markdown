@@ -1,17 +1,33 @@
 ### My Current Work
 
-[Co-Founder, Software Engineer @ Cloud Warmer, Inc.](http://cloudwarmerinc.com) - June 2009 &#8594; Present
+[Director of Engineering @ TaxJar](http://taxjar.com) - January 2019 &#8594; Present
 
-* I am the sole developer of Cloud Warmer, a two person company, and am responsible
+* As the Director of Engineering of the Reporting & Filing Group at TaxJar, I
+  manage a number of teams that support manual filing and AutoFile customers,
+  as well as the internal AutoFile Team.
+
+[Engineering Lead @ TaxJar](http://taxjar.com) - January 2018 &#8594; December 2018
+
+* I started as the Engineering Lead of the AutoFile Engineering Team. In this
+  role, I managed a team that focused on supporting AutoFile customers and
+  internal AutoFile Team.
+* I later transitioned to leading an expanded Reporting & Filing Team, that grew
+  to also support manual filing customers.
+
+[Software Engineer @ TaxJar](http://taxjar.com) - February 2017 &#8594; December 2017
+
+* As a Software Engineer at TaxJar, I worked on projects throughout the
+  application. Later, I transitioned to specific projects that supported
+  AutoFile customers and the internal AutoFile Team.
+
+[Co-Founder, Software Engineer @ Limited Run, Inc.](http://limitedrun.com) - June 2009 &#8594; Present
+
+* I am the sole developer of Limited Run and am responsible
   for all technical decisions, development, and operations of our services.
 * [Limited Run](/projects/limitedrun) -
-	A hosted store platform for artists, labels, designers or anyone selling
-  unique products directly to fans. Whether you’re selling physical or digital
-  items, Limited Run provides tools that let you create a store, or even an
-  entire website, in minutes. Limited Run was launched in 2009 under the name
-  Limited Pressing. It was relaunched at the start of 2012 and renamed to
-  Limited Run. In addition to our self-service version, we also customize, host,
-  and manage white-labeled versions of our platform.
+	Limited Run is a hosted store platform for artists, labels, designers or anyone
+  selling unique products directly to fans. In addition to the self-service version,
+  we also customize, host, and manage white-labeled versions of our platform.
 * [Swell](http://heyswell.com) -
 	A traffic analysis and alerting service that tells you instantly when something
 	exciting happens on your site. You can receive alerts for traffic spikes by
