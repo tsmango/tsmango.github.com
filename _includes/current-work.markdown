@@ -1,6 +1,12 @@
 ### My Current Work
 
-[Director of Engineering @ TaxJar](http://taxjar.com) - January 2019 &#8594; Present
+[Director of Engineering @ TaxJar](http://taxjar.com) - October 2019 &#8594; Present
+
+* As the Director of the Core Workflow group at TaxJar, I run a team that oversees
+  customer experience from end to end, including the fulfillment of the promise of
+  TaxJar, by also building tools and processes to support our internal teams.
+
+[Director of Engineering @ TaxJar](http://taxjar.com) - January 2019 &#8594; September 2019
 
 * As the Director of Engineering of the Reporting & Filing Group at TaxJar, I
   manage a number of teams that support manual filing and AutoFile customers,
