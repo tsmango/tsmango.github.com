@@ -1,5 +1,11 @@
 ### My Past Work
 
+[Co-Founder @ RumbleX](http://railsrumble.com) - January 2016 &#8594; December 2016
+
+* After organizing the Rails Rumble (later, Ruby Rampage) for four years, I co-founded RumbleX,
+  where we continued to build and run the biggest online hackathons in the world, including
+  the Ruby Rampage, Node Knockout, Angular Attack, and more.
+
 [Organizer @ Rails Rumble](http://railsrumble.com) - July 2012 &#8594; December 2015
 
 * I rebooted and retooled the Rails Rumble, a 48 hour, distributed hackathon

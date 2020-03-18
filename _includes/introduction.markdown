@@ -1,6 +1,6 @@
 Hi, I'm Tom, and I've been a software engineer, entrepreneur, and product person
-for the last 20 years. I'm passionate about growing empowered product teams, having
-empathy for customers, remote work, and building sustainable software.
+for nearly 20 years. I'm passionate about growing empowered product teams, having
+empathy for customers, working remotely, and building sustainable software.
 
 I'm the Director of Engineering of the Core Workflow Group at
 [TaxJar](http://taxjar.com) and the co-founder of a
