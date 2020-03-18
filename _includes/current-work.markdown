@@ -2,7 +2,7 @@
 
 [Director of Engineering @ TaxJar](http://taxjar.com) - October 2019 &#8594; Present
 
-* As the Director of the Core Workflow group at TaxJar, I run a team that oversees
+* As the Director of the Core Workflow group at TaxJar, I lead a team that oversees
   customer experience from end to end, including the fulfillment of the promise of
   TaxJar, by also building tools and processes to support our internal teams.
 
