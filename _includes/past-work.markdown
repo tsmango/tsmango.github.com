@@ -1,5 +1,31 @@
 ### My Past Work
 
+[Director of Engineering @ TaxJar](http://taxjar.com) - October 2019 &#8594; March 2020
+
+* As the Director of the Core Workflow group at TaxJar, I led a team that oversaw
+  customer experience from end to end, including the fulfillment of the promise of
+  TaxJar, by also building tools and processes to support internal teams.
+
+[Director of Engineering @ TaxJar](http://taxjar.com) - January 2019 &#8594; September 2019
+
+* As the Director of Engineering of the Reporting & Filing Group at TaxJar, I
+  managed a number of teams that supported manual filing and AutoFile customers,
+  as well as the internal AutoFile Team.
+
+[Engineering Lead @ TaxJar](http://taxjar.com) - January 2018 &#8594; December 2018
+
+* I started as the Engineering Lead of the AutoFile Engineering Team. In this
+  role, I managed a team that focused on supporting AutoFile customers and
+  internal AutoFile Team.
+* I later transitioned to leading an expanded Reporting & Filing Team, that grew
+  to also support manual filing customers.
+
+[Software Engineer @ TaxJar](http://taxjar.com) - February 2017 &#8594; December 2017
+
+* As a Software Engineer at TaxJar, I worked on projects throughout the
+  application. Later, I transitioned to specific projects that supported
+  AutoFile customers and the internal AutoFile Team.
+
 [Co-Founder @ RumbleX](http://railsrumble.com) - January 2016 &#8594; December 2016
 
 * After organizing the Rails Rumble (later, Ruby Rampage) for four years, I co-founded RumbleX,
