@@ -5,10 +5,6 @@ permalink: about/index.html
 
 {% include introduction.markdown %}
 
-{% include current-work.markdown %}
-
-{% include past-work.markdown %}
-
-{% include personal-projects.markdown %}
+{% include work-history.markdown %}
 
 {% include education.markdown %}

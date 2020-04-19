@@ -1,4 +1,4 @@
-### My Other Work
+### Personal Projects
 
 * [active_configuration](https://github.com/tsmango/active_configuration) -
   An engine that exposes a generic settings store to ActiveRecord models.
