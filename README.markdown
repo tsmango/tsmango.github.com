@@ -7,7 +7,6 @@ My [personal site](http://thomasmango.com), using [Jekyll](http://github.com/moj
 The following files, directories and their contents are Copyright 2012 Thomas Mango. You may not reuse anything therein without my permission:
 
 * \_/includes
-* about.markdown
 * files/
 * images/
 * napoleon.markdown
